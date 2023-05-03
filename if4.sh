@@ -1,6 +1,8 @@
 #!/bin/bash
 # and example
-if [ -r $1 ] && [ -s $1 ]
+if [ -r $1 ] && [ 2 $1 ]
 then
 echo This file is useful.
+else
+echo 
 fi

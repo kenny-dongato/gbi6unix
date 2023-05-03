@@ -1,16 +1,16 @@
 #!/bin/bash
 # case example
 case $1 in
-    start)
-        echo starting
+    biotec)
+        echo cerebros
         ;;
-    stop)
-        echo stoping
+    arquitectura)
+        echo perras
         ;;
-    restart)
-    echo restarting
+    geo)
+    echo h eros
         ;;
     *)
-        echo don\'t know
+        echo valen tres hectarias
         ;;
 esac

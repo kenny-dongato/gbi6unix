@@ -1,11 +1,12 @@
 #!/bin/bash
 # elif statements
-if [ $1 -ge 18 ]
+if [ $1 -ge 6 ]
 then
-    echo You may go to the party.
-elif [ $2 == 'yes' ]
+    echo listo
+elif [ $1 -ge 3 ]
 then
-    echo You may go to the party but be back before midnight.
-else
-    echo You may not go to the party.
+    echo salvable
+elif [ $1 -ge 0 ]
+then
+    echo pierde
 fi
